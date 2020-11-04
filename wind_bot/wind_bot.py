@@ -5,7 +5,7 @@ import requests
 from telegram.ext import CallbackContext
 
 import config
-from models import Subscriber
+from wind_bot.models import Subscriber
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)

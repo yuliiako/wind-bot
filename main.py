@@ -3,8 +3,8 @@ import datetime
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 import config
-from time_zone import Lviv_TZ
-from wind_bot import callback_message, start_command, help_command, echo
+from wind_bot.time_zone import Lviv_TZ
+from wind_bot.wind_bot import callback_message, start_command, help_command, echo
 
 
 def main():
